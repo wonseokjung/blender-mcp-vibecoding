@@ -1,0 +1,7 @@
+블렌더 MCP로 원룸 가구 배치 3D 투어를 실사 느낌으로 다시 만들어줘. 지금 블록 가구는 너무 3D 같아.
+
+- Poly Haven의 실제 스캔 CC0 모델로 가구를 바꿔줘: 라운지 체어(modern_arm_chair_01), 큰 화분(potted_plant_02), 커피 테이블(modern_coffee_table_01), 사이드 테이블(side_table_01), 책상 의자(dining_chair_02), 수납 선반(wooden_display_shelves_01), 액자(hanging_picture_frame_01). 스타일이 안 맞는 앤틱 소파 대신 모던 부클레 소파는 직접 모델링하고 실제 스캔 패브릭 질감을 입혀줘.
+- 바닥은 스캔 헤링본 마루(herringbone_parquet), 벽은 스캔 화이트 플라스터, 침구는 리넨·저지 스캔 원단, 수납장·침대 프레임은 오크 베니어 스캔. 텍스처는 실제 크기로.
+- 창밖 하늘 HDRI(kloofendal_48d_partly_cloudy_puresky)로 자연광, 렌더는 Cycles.
+- 돌하우스 단면, 가구가 하나씩 떨어져 배치되는 연출, 치수 라벨 "6.0 m / 4.0 m / 원룸 · 약 24㎡", 위에서 소파 뒤 눈높이로 내려오는 카메라는 그대로.
+- 1920×1080, 24fps, 7초. 단계마다 미리보기로 확인하면서 고쳐줘.

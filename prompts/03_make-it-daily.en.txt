@@ -1,0 +1,5 @@
+Make today's scene run by itself every morning at 08:00.
+- Read autopilot/todays_scene.py and add any new time-of-day, weather or camera ideas from today to its tables (TIMES, WEATHER, SHOTS).
+- It must run from the command line without the Blender window, and leave frames, an mp4 and params.json in out/<date>/ for each day.
+- On a Mac, fill autopilot/com.connectailab.todays-scene.plist.template with my folder path; on Windows, use autopilot/windows_task.txt. Show me the command to register it; I will run it myself.
+- One GPU means one render at a time. Skip the run if another render is busy.

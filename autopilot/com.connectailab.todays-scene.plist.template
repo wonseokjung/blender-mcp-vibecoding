@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- macOS launchd template: run the autopilot every day at 08:00.
+     1. Replace /PATH/TO/blender-mcp-vibecoding (3 places) with your folder.
+     2. Copy to ~/Library/LaunchAgents/com.connectailab.todays-scene.plist
+     3. launchctl load ~/Library/LaunchAgents/com.connectailab.todays-scene.plist
+     Stop it any time: launchctl unload ~/Library/LaunchAgents/com.connectailab.todays-scene.plist
+     The Mac must be awake at 08:00 (or it runs at the next wake). CONNECT AI LAB -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.connectailab.todays-scene</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/PATH/TO/blender-mcp-vibecoding/autopilot/run_daily.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/PATH/TO/blender-mcp-vibecoding/out/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/PATH/TO/blender-mcp-vibecoding/out/launchd.log</string>
+</dict>
+</plist>

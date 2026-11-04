@@ -1,0 +1,7 @@
+Use the golden-hour villa that is open in Blender to make "today's scene". Do not touch the modelling; change only light, weather and camera.
+- Pick one time of day: golden hour, blue hour, night (interior lights on) or dawn. Change the sun elevation and direction on the existing Sky Texture.
+- Pick one weather: clear, light mist or light rain.
+- Pick one 3-second stretch of the existing drone camera path.
+- Vertical 1080x1920, 24 fps, 3 seconds, Cycles 32 samples.
+- Look through the camera with look first and fix one awkward thing at a time (too dark, sky floating, rain looks like a curtain). Repeat at least 3 times and log each fix in one line.
+- Finally list what you picked (time, weather, shot) and the numbers you changed, then render into out/<today's date>/.

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these scenes, prompts or tools, please cite them as below."
+title: "blender-mcp-vibecoding: chat-driven Blender scenes, prompts and an autopilot for AI video vibecoding"
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+url: "https://github.com/wonseokjung/blender-mcp-vibecoding"
+repository-code: "https://github.com/wonseokjung/blender-mcp-vibecoding"
+authors:
+  - name: "CONNECT AI LAB"
+    website: "https://www.aicitybuilders.com"
+  - family-names: "Jung"
+    given-names: "Wonseok"
+    alias: "AI 멘토 제이"
+keywords:
+  - blender
+  - mcp
+  - model context protocol
+  - vibecoding
+  - ai video
+  - 3d

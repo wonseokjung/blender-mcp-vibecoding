@@ -1,0 +1,7 @@
+Windows Task Scheduler: run the autopilot every day at 08:00 (template, run once in a normal PowerShell window).
+Replace C:\PATH\TO\blender-mcp-vibecoding with your folder.
+
+schtasks /Create /TN "CONNECT AI LAB Todays Scene" /SC DAILY /ST 08:00 /TR "powershell -NoProfile -ExecutionPolicy Bypass -File C:\PATH\TO\blender-mcp-vibecoding\autopilot\run_daily.ps1"
+
+Run it now to test:   schtasks /Run /TN "CONNECT AI LAB Todays Scene"
+Remove it:            schtasks /Delete /TN "CONNECT AI LAB Todays Scene" /F

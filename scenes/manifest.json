@@ -1,0 +1,114 @@
+{
+  "name": "blender-mcp-vibecoding",
+  "version": "1.0.0",
+  "base_url": "https://github.com/wonseokjung/blender-mcp-vibecoding/releases/download/v1.0.0/",
+  "base_url_note": "Override with --base-url or the BMV_BASE_URL environment variable (for a mirror).",
+  "scenes": [
+    {
+      "id": "golden-hour-villa",
+      "title_ko": "노을 빌라 · 골든아워 드론",
+      "title_en": "Golden-Hour Cliff Villa",
+      "file": "golden-hour-villa.blend",
+      "release_asset": "golden-hour-villa.blend",
+      "bytes": 1046727626,
+      "sha256": "cb492c667a879037ea479b78a69694d202af1198fcad9ffd560501c978257eeb",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "CYCLES",
+      "level": "hero",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Poly Haven (CC0): coast_sand_01, concrete_wall_008, dark_rock_02, japanese_cedar_planks, leafy_grass, wood_floor_deck, coast_land_rocks_04, dining_chair_02, dining_table, grass_medium_01, island_tree_01/02/03, mid_century_lounge_chair, modern_ceiling_lamp_01, modern_coffee_table_02, pine_tree_01, potted_plant_01/02, rock_moss_set_01, searsia_lucida, sofa_03",
+        "Pretendard Medium (SIL OFL 1.1), packed for the CONNECT AI LAB letters"
+      ],
+      "tutorial": "tutorials/00_golden-hour-villa/"
+    },
+    {
+      "id": "seoul-day-night-rain",
+      "title_ko": "서울 사거리 · 낮 밤 비",
+      "title_en": "Seoul Crossroads: Day, Night, Rain",
+      "file": "seoul-day-night-rain.blend",
+      "release_asset": "seoul-day-night-rain.blend",
+      "bytes": 98372033,
+      "sha256": "62207199e6b57af6a59dbc2e49fb57482253a2b31c4eca306e2cc3fbc1251d45",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "CYCLES",
+      "level": "intermediate",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Poly Haven (CC0): asphalt_02, concrete_pavement_02, concrete_wall_008, rectangular_facade_tiles, red_brick_03, white_plaster_02, tree_small_02",
+        "Korean shop signs: drawn for this scene (fictional names), CONNECT AI LAB"
+      ],
+      "tutorial": "tutorials/01_seoul-day-night-rain/"
+    },
+    {
+      "id": "rainy-night-laundromat",
+      "title_ko": "비 오는 밤의 무인 빨래방",
+      "title_en": "Rainy-Night Laundromat",
+      "file": "rainy-night-laundromat.blend",
+      "release_asset": "rainy-night-laundromat.blend",
+      "bytes": 82737468,
+      "sha256": "27f141f5caf429a3f23808288ac13a6c41eb94a5c3dab5fa21c8c9e64858f781",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "CYCLES",
+      "level": "intermediate",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Poly Haven (CC0): asphalt_02, pavement_01, worn_tile_floor, painted_plaster_wall, concrete_wall_003, painted_metal_shutter, WetFloorSign_01, korean_fire_extinguisher_01, plastic_monobloc_chair_01, plastic_crate_01, potted_plant_02, utility_box_01, cardboard_box_01",
+        "Sign, posters, stickers: drawn for this scene, CONNECT AI LAB"
+      ],
+      "tutorial": "tutorials/02_rainy-night-laundromat/"
+    },
+    {
+      "id": "studio-apartment-interior",
+      "title_ko": "원룸 인테리어 3D 투어",
+      "title_en": "Studio Apartment Interior Tour",
+      "file": "studio-apartment-interior.blend",
+      "release_asset": "studio-apartment-interior.blend",
+      "bytes": 73269744,
+      "sha256": "b1e8f258b10b916aa2bc62092177452584de9b9ddcbad88a0b0c7c07c1913293",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "CYCLES",
+      "level": "beginner",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Poly Haven (CC0): herringbone_parquet, jersey_melange, kloofendal_48d_partly_cloudy_puresky, oak_veneer_01, rough_linen, white_plaster_02, wool_boucle, dining_chair_02, hanging_picture_frame_01, modern_arm_chair_01, modern_coffee_table_01, potted_plant_02, side_table_01, wooden_display_shelves_01, sofa_03, desk_lamp_arm_01 (bundled, not shown in the final shot)",
+        "Pretendard Bold, SemiBold (SIL OFL 1.1), packed for the labels"
+      ],
+      "tutorial": "tutorials/03_studio-apartment-interior/"
+    },
+    {
+      "id": "channel-logo-intro",
+      "title_ko": "채널 3D 로고 인트로",
+      "title_en": "Channel 3D Logo Intro",
+      "file": "channel-logo-intro.blend",
+      "release_asset": "channel-logo-intro.blend",
+      "bytes": 2116574,
+      "sha256": "53b30165c6fdf3ed4b6ef0dd72736b7bcbf28909b25ee4064542b74a48220eeb",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "BLENDER_EEVEE",
+      "level": "beginner",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Pretendard Black, Medium (SIL OFL 1.1), packed for the letters"
+      ],
+      "tutorial": "tutorials/04_channel-logo-intro/"
+    },
+    {
+      "id": "audio-reactive-loop",
+      "title_ko": "음악에 반응하는 루프",
+      "title_en": "Audio-Reactive Loop",
+      "file": "audio-reactive-loop.blend",
+      "release_asset": "audio-reactive-loop.blend",
+      "bytes": 5900618,
+      "sha256": "6bac7b96d259537ed6fc7f206012dbe92913230d2f0128d184fe2383440bdeb3",
+      "blender_version": "5.2 LTS (saved with 5.2.2; open with 5.2 or newer)",
+      "engine": "CYCLES",
+      "level": "intermediate",
+      "license": "CC BY 4.0 (scene by CONNECT AI LAB); bundled third-party assets keep their own licence, see CREDITS.md",
+      "credits": [
+        "Iris ring text texture and audio-driven keyframes: made for this scene, CONNECT AI LAB (the music itself is not included)"
+      ],
+      "tutorial": "tutorials/05_audio-reactive-loop/"
+    }
+  ]
+}

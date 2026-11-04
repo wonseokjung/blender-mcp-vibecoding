@@ -1,0 +1,13 @@
+# scenes are published as GitHub Release assets, not in git
+dist_scenes/
+scenes/blend/
+*.blend
+*.blend1
+*.blend2
+*.part
+*.bad
+out/
+renders/
+__pycache__/
+*.pyc
+.DS_Store
